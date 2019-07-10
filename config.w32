@@ -1,0 +1,13 @@
+// $Id$
+// vim:ft=javascript
+
+// If your extension references something external, use ARG_WITH
+// ARG_WITH("php_psutil", "for php_psutil support", "no");
+
+// Otherwise, use ARG_ENABLE
+ARG_ENABLE("php_psutil", "enable php_psutil support", "no");
+
+if (PHP_PHP_PSUTIL != "no") {
+	EXTENSION("php_psutil", "php_psutil.c", PHP_EXTNAME_SHARED, "/DZEND_ENABLE_STATIC_TSRMLS_CACHE=1");
+}
+
