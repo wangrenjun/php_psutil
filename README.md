@@ -1,7 +1,7 @@
 Summary
 =======
 
-php_psutil is PHP version of psutil for system(CPU, memory, disks, network) and process information. It is used to monitor the system status. php_psutil depends on [cpslib](https://github.com/hamon-in/cpslib) and the API is mostly compatible with psutil in Python version.
+php_psutil is extension of PHP version of psutil for system(CPU, memory, disks, network) and process information. It has many uses usually for monitoring the system status. php_psutil depends on [cpslib](https://github.com/hamon-in/cpslib) and the API is mostly like psutil in Python version.
 
 
 
